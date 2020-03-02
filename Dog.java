@@ -1,11 +1,15 @@
-import java.util*;
-public class Dog implements Comparable<Dog>{
-	public Dog(String name,int legs){
-		this.name=name;
-		this.legs=legs;
+import java.util.*;
+public class Dog extends Animal{
+
+	public Dog(String name, int legs) {
+		super(name,legs);
 	}
-	public String toString(){
-		return name +":"+ legs;
+	public String toString() {
+		return name + ":" +legs;
 	}
+	
+	
+	
+
 }
 			
